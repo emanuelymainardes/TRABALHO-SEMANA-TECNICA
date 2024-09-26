@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'pretendo';
+  src: url('/path-to/pretendo.woff2') format('woff2'),
+       url('/path-to/pretendo.woff') format('woff'),
+       url('/path-to/pretendo.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'pretendo', sans-serif;
+}

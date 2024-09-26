@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título e Logo ou Ícone do Site - Aparece na aba do navegador -->
+    <title>Mintendo - O Museu da Nintendo</title>
+    <link rel="shortcut icon" href="assets/imgs/icone.png" type="image/x-icon">
+    <!-- Estilos do site foram divididos em arquivos para melhor organização -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header class="cabecalho">
+        <h1 class="cabecalho_titulo">Museu da Nintendo</h1>
+        <div class="icones_menus">
+            <div class="container_pesquisa">
+                <img id="icone_pesquisa" src="assets/imgs/search_icon_claro.png" alt="Lupa: ícone de pesquisa.">
+                <input type="search" name="barra_pesquisa" id="barra_pesquisa" placeholder="O que procura...">
+            </div>
+            <img id="icone_menu" src="assets/imgs/menu_icon2.png" alt="Ícone de Menu.">
+        </div>
+    </header>
+    <!-- Menu de navegação -->
+    <nav id="menu_nav">
+        <ul class="menu_lista">
+            <li class="menu_item">
+                <a class="menu_item_link" href="index.html">&#x1F3E0; Página Inicial</a>
+            </li>            
+            <li class="menu_item">
+                <a class="menu_item_link" href="sobre.html">&#x1F56E; Sobre</a>
+            </li>            
+            <li class="menu_item">
+                <a class="menu_item_link" href="contato.html">&#x1F582; Contato</a>
+            </li>            
+            <li class="menu_item">
+                <a class="menu_item_link" href="#">&#x1F528;----</a>
+            </li>            
+        </ul>
+    </nav>
+    <!-- Parte principal da página -->
+    <main>
+        <section class="home">
+            <h2 class="home_titulo">Museu Online de História da <span class="nintendo">Nintendo</span>.</h1>
+            <p class="home_paragrafo">A história e os consoles da maior e mais longeva empresa de games do mundo.</p>
+            <input id="home_botao" type="button" value="Visitar">
+        </section>
+    </main>
+    <!-- Rodapé do site -->
+    <footer class="rodape">
+        <div class="rodape_texto">
+            <p class="rodape_paragrafo">Site desenvolvido pelos alunos do 2ºB do Curso de Desenvolvimento de Sistemas do Centro Estadual de Educação Profissional.</p>
+            <p class="rodape_paragrafo">&copy; Todos os direitos reservados aos academicos. &copy;</p>
+        </div>
+        <img class="logo_escola" src="assets/imgs/logo_ceep.png" alt="Logo do Cólegio - Centro Estadual de Educação Profissional de Ponta Grossa.">
+    </footer>
+    <script src="/assets/scripts/icones.js"></script>
+</body>
+</html>

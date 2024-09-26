@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    font-family: 'pretendo', sans-serif;
+}
+
+body {
+    color: white;
+    font-family: "Handjet", system-ui;
+    font-weight: bold;    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 18px;
+    height: 100vh;
+    background-image: url('../imgs/home_background.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cabecalho {
+    padding: 1vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    border-bottom-style: solid;
+    border-image-slice: 1;
+    border-bottom-width: 2px;
+    border-image-source: linear-gradient(to left,#01010100 0%, #FF0000FF 20%, #FF0000FF 80%, #00000000 100%);
+}
+
+.cabecalho_titulo{
+    font-size: 1.3em;
+    padding: 1vmin;
+    color: red;
+    border: 5px solid red;
+    border-radius: 40px;
+}
+
+.icones_menus {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    min-width: 150px;
+    justify-content: space-between;
+    padding: 1vmin 2vmin;
+}
+
+.container_pesquisa {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+#barra_pesquisa {
+    display: none;
+    width: 80%;
+    font-size: 0.9em;
+    padding: 1vmin 1vmin;
+    border-radius: 5px;
+}
+
+#icone_pesquisa {
+    margin: auto 1vmin;
+}
+
+#icone_pesquisa:hover{
+    border: 1px solid red;
+    background-color: #FF000077;
+    border-radius: 4px;
+}
+
+#icone_menu:hover {
+    border: 1px solid red;
+    background-color: #FF000077;
+    border-radius: 4px;
+}
+
+#menu_nav {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 70px;
+    min-width: 200px;
+    width: 20%;
+    max-width: 400px;
+    background-color: black;
+    padding: 1vmin 0;
+}
+
+
+.menu_item {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    padding: 1vmin;
+    margin: 1vmin 0;
+    width: 100%;
+    .menu_item_link {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+}
+
+main {
+    flex-grow: 2;
+    margin: 2vmin;
+    width: 100%;
+}
+
+.rodape{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1vmin 2vmin;
+    border-top-style: solid;
+    border-image-slice: 1;
+    border-top-width: 2px;
+    border-image-source: linear-gradient(to left,#01010100 0%, #FF0000FF 20%, #FF0000FF 80%, #00000000 100%);
+}
+
+.rodape_texto {
+    justify-self: stretch;
+    font-size: 0.9em;
+}
+
+.logo_escola {
+    background-color: #000000AA;
+    border-radius: 5px;
+    margin-left: 2vw;
+    max-width: 150px;
+    width: 15%;
+}
