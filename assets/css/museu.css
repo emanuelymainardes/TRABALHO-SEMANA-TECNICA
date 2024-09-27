@@ -1,0 +1,24 @@
+body.pagina_museu {
+    background-image: none;
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: block;
+}
+
+img.logo_escola {
+    background-color: white;
+}
+
+header.cabecalho {
+    width: 100%;
+}
+
+.historia_nintendo {
+    width: 95%;
+    margin: 2vmin auto;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 1vmin 2vw;
+}
+

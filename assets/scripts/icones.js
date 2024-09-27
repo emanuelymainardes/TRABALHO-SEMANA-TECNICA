@@ -15,5 +15,3 @@ document.getElementById("icone_menu").addEventListener("click", function(){
         menu.style.display = "none";
     }
 });
-
-document.getElementById("home_botao").addEventListener("click", () => window.location.href = "./museu.html");

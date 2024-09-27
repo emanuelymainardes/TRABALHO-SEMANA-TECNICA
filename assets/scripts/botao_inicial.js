@@ -1,0 +1,1 @@
+document.getElementById("home_botao").addEventListener("click", () => window.location.href = "museu.html");
